@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  ClientManager
+//
+//  Created by iOS－MacBook on 2017/5/9.
+//  Copyright © 2017年 Lispeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ClientManager.h"
+#import "UIView+LSPExtension.h"
+#import "AppColor.h"
+#import "NSString+Extension.h"
+#import "UIBarButtonItem+LSPExtension.h"
+#import "NSString+Additions.h"
+
+/*数字合集，用于输入判断*/
+#define NUMBERS @"0123456789"
+#define NUMBERS_AND_DOT @"0123456789."
+#define CellH 90
+#define OMFont [UIFont systemFontOfSize:14]
+#define ComFont [UIFont systemFontOfSize:15]
+#define ComAttFont [UIFont systemFontOfSize:16]
+#define CMTitleFont [UIFont systemFontOfSize:17]
+#define ComMargin 10
+#define OMLRMargin 5
+#define OMMargin 5
+#define OMCellHeight 55
+#define OMCellSignWidth 45
+#define OMCellSignHeight 18
+//主界面客户的字体宏定义
+#define OMClientTitleFont [UIFont boldSystemFontOfSize:15]
+//标签的同意宏定义
+#define OMSignFont [UIFont systemFontOfSize:13]//统一字体
+//订单详情页面的统一宏定义
+#define OMDetailFont [UIFont systemFontOfSize:15]//统一字体
+#define OMDetailMargin 10//统一左右间距
+#define OMDetailContentMargin 5//统一的两个文本内容间距
+#define OMDetailH 44//统一高度
+#define OMDetailCellH 55
+#endif /* PrefixHeader_pch */
